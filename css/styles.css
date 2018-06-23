@@ -8,6 +8,9 @@
 @media screen and (max-width: 1200px) {
 
 }
+#container {
+
+}
 img {
   max-width: 100%;
 }
@@ -23,12 +26,15 @@ main {
   width: 100%;
 }
 .work_container {
-  background-color: black;
+  background-color: gray;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .work {
   background-color: red;
-  float: left;
-  width: 33.3%;
+  width: 300px;
+  height: 200px;
 }
 footer {
   background-color: yellow;
