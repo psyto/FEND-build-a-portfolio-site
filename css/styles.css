@@ -1,5 +1,5 @@
 * {
-  color: gray;
+  color: #2d3c49;
   font-family: sans-serif;
 }
 img {
@@ -8,11 +8,15 @@ img {
 a {
   text-decoration: none;
 }
+h3 {
+  color: #7d97ad;
+}
 header {
   width: 100%;
   text-transform: uppercase;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 main {
 
@@ -21,7 +25,8 @@ main {
   width: 50%;
 }
 #name {
-  width: 50%
+  width: 50%;
+  text-align: right;
 }
 .hero {
   width: 100%;
@@ -30,9 +35,10 @@ main {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .work {
-  width: 33.3%;
+  width: 300px;
   text-align: center;
 }
 footer {
