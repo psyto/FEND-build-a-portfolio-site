@@ -1,27 +1,27 @@
-h1 {
-
-}
-h2 {
-
-}
-h3 {
-
-}
-h4 {
-
-}
-a {
-
+* {
+  color: gray;
+  font-family: sans-serif;
 }
 img {
   max-width: 100%;
 }
+a {
+  text-decoration: none;
+}
 header {
   width: 100%;
   text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
 }
 main {
 
+}
+#logo {
+  width: 50%;
+}
+#name {
+  width: 50%
 }
 .hero {
   width: 100%;
