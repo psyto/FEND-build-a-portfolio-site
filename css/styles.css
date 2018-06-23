@@ -15,24 +15,21 @@ img {
   max-width: 100%;
 }
 header {
-  background-color: blue;
   width: 100%;
+  text-transform: uppercase;
 }
 main {
 
 }
 .hero {
-  background-color: green;
   width: 100%;
 }
 .work_container {
-  background-color: gray;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 .work {
-  background-color: red;
   width: 300px;
   height: 200px;
 }
